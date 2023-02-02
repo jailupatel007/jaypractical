@@ -11,23 +11,6 @@ let http = axios.create({
 
 const baseURL = 'https://fakestoreapi.com/';
 
-const axoisPramsGet = async (url, data) => {
-  let res = '';
-  // let fullUrl = baseURL + url;
-  return axios
-    .get(url, data)
-    .then(function (response) {
-      response =
-        typeof response.data === 'string'
-          ? JSON.parse(response.data.trim())
-          : response.data;
-      return response;
-    })
-    .catch(error => {
-      return error;
-    });
-};
-
 const axoisGet = async url => {
   let fullUrl = baseURL + url;
   return axios
@@ -44,4 +27,4 @@ const axoisGet = async url => {
     });
 };
 
-export {axoisPramsGet, axoisGet};
+export {axoisGet};

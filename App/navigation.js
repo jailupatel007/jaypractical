@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 const MainStackNavigation = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="ProductList">
+      <Stack.Navigator>
         <Stack.Screen
           name="MobileOTP"
           component={MobileOTP}
