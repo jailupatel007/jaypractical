@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "268206913403",
+    "project_id": "jaypractical-302e8",
+    "storage_bucket": "jaypractical-302e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268206913403:android:dd3c66b7782ac261bbefde",
+        "android_client_info": {
+          "package_name": "com.jaypractical"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268206913403-es2hase9uf3g318be7ajj00ef1ead024.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaypractical",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "268206913403-60t1oc9nt2tlrbei468mkqubvldlsdq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLH5-ZCZaCkV1R8t-b4l2eN85GZ-ZwBJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268206913403-60t1oc9nt2tlrbei468mkqubvldlsdq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
